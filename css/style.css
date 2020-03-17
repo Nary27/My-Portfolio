@@ -8,7 +8,7 @@ body {
   /* max-width: 1280px; */
 }
 
-header {
+#header {
   padding-top: 48px;
   padding-bottom: 80px;
   width: 100%;

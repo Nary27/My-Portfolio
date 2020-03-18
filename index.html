@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MY PORTFOLIO</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/index.css">
 
   <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
   <link href="js/slick.css" rel="stylesheet" type="text/css">
@@ -18,8 +20,22 @@
 </head>
 <body>
   <div id="header">
+    <div class="header__container">
+      <div class="header__container--name">
+        <a class="name__logo" href="index.html">Kazunari Hara</a>
+      </div>
+      <nav id="genre" role="navigation">
+        <ul>
+          <li class= "genre__tags"><a href="index.html" >Home</a></li>
+          <li class= "genre__tags"><a href="work.html">Works</a></li>
+          <!-- <li class= "genre__tags"><a href="services.html">Services</a></li> -->
+          <li class= "genre__tags"><a href="skills.html">Skills</a></li>
+          <li class= "genre__tags"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
-  
+    
   <div id = "head-slideshow">
     <ul class="slider">
       <li><a href="#"><img src="images/laptop1.jpg" alt="image01" ></a></li>
@@ -45,7 +61,7 @@
 			<div class="first-section__images">
 				<div class="item">
 					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/test.png" alt="image" height="250" width="360">
+					<img src="images/test.png" alt="image" class="item-image" >
 					<a href="#" class="item__images">
             <div class="mask">
               <div class="caption">Chat space<hr></div>
@@ -54,7 +70,7 @@
         </div>
         <div class="item">
 					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/test.png" alt="image" height="250" width="360">
+					<img src="images/test.png" alt="image" class="item-image">
 					<a href="#" class="item__images">
             <div class="mask">
               <div class="caption">FURIMA<hr></div>
@@ -63,7 +79,7 @@
         </div>
         <div class="item">
 					<!-- <a href="#" class="image-popup"> -->
-					<img src="images/test.png" alt="image" height="250" width="360">
+					<img src="images/test.png" alt="image" class="item-image">
 					<a href="#" class="item__images">
             <div class="mask">
               <div class="caption">My app<hr></div>
@@ -88,10 +104,10 @@
             </div>
           </div>
           <div class="service-btn">
-           <a href="#" class="service-btn__link">Contact</a>
+           <a href="contact.html" class="service-btn__link">Contact</a>
           </div>
         </div>
-          <div class="service-item">
+        <div class="service-item">
           <img src="images/landingpage.jpg" alt="service-image" class="service-image">
           <div class="service-content">
             <h3>ランディングページ制作</h3>
@@ -99,10 +115,10 @@
             </div>
           </div>
           <div class="service-btn">
-           <a href="#" class="service-btn__link">Contact</a>
+           <a href="contact.html" class="service-btn__link">Contact</a>
           </div>
         </div>
-          <div class="service-item">
+        <div class="service-item">
           <img src="images/iphone1.jpg" alt="service-image" class="service-image">
           <div class="service-content">
             <h3>レスポンシブ対応</h3>
@@ -110,18 +126,18 @@
             </div>
           </div>
           <div class="service-btn">
-           <a href="#" class="service-btn__link">Contact</a>
+           <a href="contact.html" class="service-btn__link">Contact</a>
           </div>
         </div>
-         <div class="service-item">
-        <img src="images/meo.jpg" alt="service-image" class="service-image">
-        <div class="service-content">
-          <h3>MEO対策</h3>
-          <div class= "service-content__text">お客様のニーズに合わせて、お問い合わせや会員登録機能を使って売り上げや成果に繋がるホームページを制作致します。
-          </div>
+        <div class="service-item">
+          <img src="images/meo.jpg" alt="service-image" class="service-image">
+          <div class="service-content">
+            <h3>MEO対策</h3>
+            <div class= "service-content__text">お客様のニーズに合わせて、お問い合わせや会員登録機能を使って売り上げや成果に繋がるホームページを制作致します。
+            </div>
         </div>
         <div class="service-btn">
-         <a href="#" class="service-btn__link">Contact</a>
+         <a href="contact.html" class="service-btn__link">Contact</a>
         </div>
       </div>
         
@@ -137,7 +153,7 @@
 
 	  
   <footer>
-    <small>Kazunari all rights reserved</small>
+    <small>© Copyright 2020 KazunariHara. All rights reserved.</small>
   </footer>
 
 

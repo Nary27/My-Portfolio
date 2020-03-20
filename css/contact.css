@@ -1,0 +1,20 @@
+#contents-first{
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+.first-section{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.first-section__text{
+  margin-bottom: 5em;
+}
+
+.first-section__text h1{
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}

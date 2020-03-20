@@ -21,7 +21,8 @@ a{
 /* head-slideshow */
 
 #head-slideshow{
-  width: 100%;  
+  width: 100%;
+    
 }
 
 /* MY WORKS */
@@ -153,7 +154,11 @@ a{
   color: #fff;
 }
 
-small{
-  text-align: center;
+#footer{
+  padding: 2em 0;
+}
 
+#footer p{
+  text-align: center;
+  font-size: 80%;
 }

@@ -9,35 +9,20 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/index.css">
-
+  <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
   <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
   <link href="js/slick.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript">
     $(function() {
-      $("#header").load("header.html");
+      $("#luxbar").load("header.html");
       $("#footer").load("footer.html");
     });
   </script>
 </head>
 <body>
-  <div id="header">
-    <div class="header__container">
-      <div class="header__container--name">
-        <a class="name__logo" href="index.html">Kazunari Hara</a>
-      </div>
-      <nav id="genre" role="navigation">
-        <ul>
-          <li class= "genre__tags"><a href="index.html" >Home</a></li>
-          <li class= "genre__tags"><a href="work.html">Works</a></li>
-          <!-- <li class= "genre__tags"><a href="services.html">Services</a></li> -->
-          <li class= "genre__tags"><a href="skills.html">Skills</a></li>
-          <li class= "genre__tags"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-    
+
+
   <div id = "head-slideshow">
     <ul class="slider">
       <li><a href="#"><img src="images/laptop1.jpg" alt="image01" class="slider__images"></a></li>
@@ -175,6 +160,8 @@
     accessibility:true,
     arrows:true,
   });
+
+
   </script>
 </body>
 </html>

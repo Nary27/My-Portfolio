@@ -1,3 +1,6 @@
+@media screen and (min-width:481px) {
+
+
 .first-section__text h1{
   font-size: 24px;
   font-weight: bold;
@@ -57,10 +60,76 @@
 .skill-content h2,h3,h4,h5,h6,h7{
   font-weight: 700;
   text-align: center;
+  /* padding-bottom: 5%; */
+}
+
+
+.skill-content__text{
+  line-height: 35px;
+}
+}
+
+@media screen and (max-width:480px) {
+
+.first-section__text h1{
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#contents-first{
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+.first-section__text{
+  margin-bottom: 5em;
+}
+
+.first-section__items{
+  width: 100%;
+}
+.skills-box{
+  background-image: url("../images/skills-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+}
+.skill-item{
+  
+  margin: 30% 5%;
+  padding: 0 2%;
+  color: #000;
+  background: #ffffff;
+  border-top: solid 6px #000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9%;
+  background-color:rgba(255,255,255,0.2);
+  
+}
+
+.skill-image{
+  width: 100%;
+  padding: 10% 0;
+  border-radius: 25%;
+}
+.skill-content {
+  padding-top: 15%;
+  font-size: 80%;
+}
+
+
+.skill-content h2,h3,h4,h5,h6,h7{
+  font-weight: 700;
+  text-align: center;
   padding-bottom: 5%;
 }
 
 
 .skill-content__text{
   line-height: 35px;
+}
 }

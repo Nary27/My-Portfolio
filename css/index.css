@@ -100,7 +100,7 @@ a{
   width: 100%;
 }
 
-/* My service */
+/* My skill */
 
 #contents-second{
   width: 100%;
@@ -112,50 +112,49 @@ a{
   display: flex;
 }
 
-.service-item{
+.skill-item{
   width: 25%;
   padding: 0 2%;
 }
 
-.service-image{
-  width: 100%;
+.skill-image{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.service-content {
+.skill-content {
   padding-top: 20%;
   font-size: 80%;
 }
 
 
-.service-content h3{
+.skill-content h3{
   font-weight: 700;
 }
 
 
-.service-content__text{
+.skill-content__text{
   line-height: 35px;
 }
 
-.service-btn{
-  padding-top: 10%;
-  text-align: center;
+.star-rating {
+  position: relative;
+  display:inline-block;
+  font-size: 25px;
 }
-.service-btn__link{
-  font-size: 20px;
-  display: inline-block;
-  padding: 0.3em 1em;
-  text-decoration: none;
-  color: #000;
-  border: solid 1px #000;
-  border-radius: 30px;
-  transition: .4s;
-  
+.star-rating .star-rating-item{
+  position:absolute;
+  overflow: hidden;
 }
-
-.service-btn__link:hover{
-  background: #000;
-  color: #fff;
+.star-rating .star-rating-item:before{
+  content:"★★★★★";
+  color: #ffcc33;
 }
-
+.star-rating:after {
+  content:"★★★★★";
+  color: #ccc;
+}
 
 }
 @media screen and (max-width:480px) {
@@ -241,35 +240,38 @@ a{
 
 
 
-.service-item{
+.skill-item{
   width: 100%;
   
   margin: 0 auto;
 }
 
-.service-image{
-  width: 100%;
+.skill-image{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.service-content {
+.skill-content {
   padding-top: 20%;
   font-size: 80%;
 }
 
 
-.service-content h3{
+.skill-content h3{
   font-weight: 700;
 }
 
 
-.service-content__text{
+.skill-content__text{
   line-height: 35px;
 }
 
-.service-btn{
+.skill-btn{
   padding: 10% 0;
   text-align: center;
 }
-.service-btn__link{
+.skill-btn__link{
   font-size: 20px;
   display: inline-block;
   padding: 0.3em 1em;
@@ -280,7 +282,7 @@ a{
   transition: .4s;
 }
 
-.service-btn__link:hover{
+.skill-btn__link:hover{
   background: #000;
   color: #fff;
 }

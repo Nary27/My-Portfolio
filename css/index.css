@@ -96,6 +96,10 @@ a{
   padding-top: 82px;
 }
 
+.item p{
+  font-size: 50%;
+}
+
 .caption hr{
   width: 30%;
 }

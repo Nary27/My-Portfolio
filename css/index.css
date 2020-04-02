@@ -56,7 +56,16 @@ a{
   overflow:	hidden;
   position:	relative;
   width: 33%;
+  
+  /* opacity : 0;
+  transform : translate(0, 100px);
+  transition : all 1s; */
 }
+
+/* .item.active{
+  opacity : 1;
+  transform : translate(0, 0);
+} */
 
 .item-image{
   width: 100%;
@@ -186,9 +195,17 @@ a{
     margin: 20% auto;
     overflow:	hidden;
     position:	relative;
-    width: 100%
+    width: 100%;
 
-  }
+    /* opacity : 0;
+    transform : translate(0, 100px);
+    transition : all 1s; */
+    }
+
+  /* .item.active{
+    opacity : 1;
+    transform : translate(0, 0);  } */
+  
   
   .item-image{
     width: 100%;
